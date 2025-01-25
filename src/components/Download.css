@@ -1,0 +1,7 @@
+.download-btns{
+    @apply flex border-2 h-20 w-60 justify-center items-center ml-5 mt-20 rounded-3xl hover:bg-gprimary hover:border-gprimary hover:shadow-[0_0_25px_purple] dark:hover:shadow-[0_0_25px_red];
+}
+
+.download-active{
+    @apply flex border-2 h-20 w-60 justify-center items-center ml-5 mt-20 rounded-3xl bg-gprimary border-gprimary shadow-[0_0_25px_purple] dark:shadow-[0_0_25px_red];
+}

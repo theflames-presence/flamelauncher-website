@@ -1,0 +1,9 @@
+.tab-btn {
+    @apply bg-[#f0c6c6] dark:bg-slate-800 dark:from-[red] dark:to-orange-700 from-[purple] to-[#a7085f] p-3 rounded-xl m-2;
+  }
+  
+  .tab-btn:hover,
+  .tab-btn-active
+  {
+    @apply bg-gradient-to-tr dark:shadow-[0_0_25px_red,0_0_40px_red] shadow-[0_0_25px_purple,0_0_40px_purple];
+  }
